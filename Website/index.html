@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</head>
+<title>DavenTell.co.uk</title>
+<main>
+
+    <body>
+        <div class="banner">
+            <img class="banner-image" src="images/banner1.png" alt="DavenTell Banner">
+        </div>
+    
+    
+        <div class="about_us">
+            <h1>  Who are we</h1>
+            <p1>About Davantell Courier Solutions
+                Small parcels to pallets - specialist glass carriers.
+                Sameday - Nextday - Economy services available
+                Small van to XLWB
+            </p1>
+        </div>
+    
+        
+    
+        <div class="contact_us">
+            <h1> contact us</h1>
+            <div class="container">
+                <form method="POST" action="contact_form.php" id="contact-form">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                  <label for="contact_number">Mobile Number</label>
+                  <input type="text" id="contact_number" name="contact_number" placeholder="07123456789">
+
+                  <label for="email">email</label>
+                  <input type="text" id="email" name="email" placeholder="youremail@example.com">
+              
+                  <label for="Counties">Counties</label>
+                  <select id="Counties" name="Counties">
+                    <option value="deven">Deven</option>
+                    <option value="durham">Durham</option>
+                    <option value="Breconshire">Breconshire</option>
+                    <option value="Essex">Essex</option>
+                    <option value="Northamptonshire">Northamptonshire</option>
+                    <option value="Staffordshire">Staffordshire</option>
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+    
+        </div>
+            
+        <div class="reviews">
+            <h1> reviews</h1>
+
+                                <!-- Slideshow container -->
+                <div class="slideshow-container">
+
+                    <!-- Full-width slides/quotes -->
+                    <div class="mySlides">
+                    <q>I've used dave a few times now to collect and deliver parts for me and I can't recommend him highly enough his to more work in the future</q>
+                    <p class="author">- Graham Clift </p>
+                    </div>
+                
+                    <div class="mySlides">
+                    <q>absolute excellent service....there was quite a few last minute changes to the planned moving day and he assisted
+                        without any problems he did not complain or say he couldn't do it...in fact he was makin suggestions to make our day 
+                        easier....after ringing many companies dave by far came in best....definitely service with a smile.....highly recommend
+                        ....without a doubt will be first person I call in future</q>
+                    <p class="author">- Tèrèsa Raynè</p>
+                    </div>
+                
+                    <div class="mySlides">
+                    <q>reviews three</q>
+                    <p class="author">-reviews three</p>
+                    </div>
+                
+                    <!-- Next/prev buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                
+                <!-- Dots/bullets/indicators -->
+                <div class="dot-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>  
+                <script src="form.js"> </script>
+        </div>
+
+        <a href = "mailto: abc@example.com">Send Email</a>
+    </body>
+</main>
+<footer>
+    <div id="footer">
+        <p1>
+            David Tombs &copy;2022
+        </p1>
+    </div>
+</footer>
+</html>
